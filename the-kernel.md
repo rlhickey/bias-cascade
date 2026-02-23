@@ -32,11 +32,11 @@ That angle is parallax: angular offset revealing depth. Zero parallax? The syste
 
 Formally: σ(F_ψ), variance in the observer's fidelity function. At σ = 0, unground: total transmission, zero resolve. At σ > 0, cut: vision gained, totality lost.
 
-> σ — curvature. How committed the lens is.\
-> F — fidelity. How accurately the lens resolves.\
-> ψ — the observer. This specific lens, with this specific grind.\
-> σ = 0 — flat glass. No commitment. Sees nothing.\
-> σ > 0 — ground glass. Committed. Sees.\
+ σ — curvature. How committed the lens is.
+ F — fidelity. How accurately the lens resolves.
+ ψ — the observer. This specific lens, with this specific grind.
+ σ = 0 — flat glass. No commitment. Sees nothing.
+ σ > 0 — ground glass. Committed. Sees.
 
 Prejudice: unexamined curvature — resolving without verification.
 
