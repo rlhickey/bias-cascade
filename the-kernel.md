@@ -86,7 +86,7 @@ The full uncompressed architecture — companion documentation, formal specifica
 
 ———
 
-If this resolved something for you, reply. Your reading is a lens I cannot hold. The architecture needs the angle.
+If this landed, reply. The work is better with parallax.
 
 ---
 
