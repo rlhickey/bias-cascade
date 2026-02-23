@@ -36,7 +36,7 @@ Formally: σ(F_ψ), variance in the observer's fidelity function. At σ = 0, ung
  F — fidelity. How accurately the lens resolves. \
  ψ — the observer. This specific lens, with this specific grind. \
  σ = 0 — flat glass. No commitment. Sees nothing. \
- σ > 0 — ground glass. Committed. Sees. \
+ σ > 0 — ground glass. Committed. Sees. 
 
 Prejudice: unexamined curvature — resolving without verification.
 
