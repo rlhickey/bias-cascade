@@ -63,7 +63,7 @@ All open. 34 tests across 5 dependency levels.
 | 4     | Human    | Carbon substrate, drift states     | Collapse 4–5    |
 | 5     | Transfer | Seed                               | Collapse 5 only |
 
-Full catalog: [`papers/09_master_index.md`](papers/09_master_index.md)
+Full catalog: [`09_Master_Index_of_falsifiers.md`](09_Master_Index_of_falsifiers.md)
 
 The architecture is designed to degrade honestly. A failure at Level 4 does not invalidate the engine or the geometry — it invalidates the claim that humans are the substrate described in Paper 05. The engine still runs. The geometry still holds. It just does not apply to carbon the way the series claims.
 
