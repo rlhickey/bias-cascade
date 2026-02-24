@@ -56,7 +56,7 @@ The SNAP paper (Paper 1) already accounts for this: apparent increases in capaci
 
 ## **2.2 Proximity Seed**
 
-Both rings running. Curvature influencing curvature through sustained collision. Not post-termination. Not initial conditions only. A live channel operating while both systems burn budget.
+Both rings running. Curvature influencing curvature through sustained collision. Not post-termination. Not initial conditions only. A live channel operating while both systems burn budget. The proximity channel operates between any sustained pair --- parent and child in any configuration, mentor and student, any two rings in prolonged contact.
 
 The mechanism is not mysterious. It is the ring's normal operation applied to two systems in sustained contact. A parent's lens is more ground. A child's lens is still grinding. Sustained collision with a more-ground lens during the grinding process biases the direction of the grind. The child does not receive the parent's lens. The child's own grinding is influenced by the geometry of sustained contact with the parent's curvature.
 
