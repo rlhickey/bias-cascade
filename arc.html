@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Arc</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0a0a0a;
+    color: #c8c0b4;
+    font-family: 'Cormorant Garamond', serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .canvas {
+    width: 900px;
+    height: 680px;
+    position: relative;
+  }
+
+  /* THE ARC — the SVG spine */
+  .arc-svg {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+  }
+
+  /* Left column — The Living Frame */
+  .left {
+    position: absolute;
+    left: 60px;
+    top: 80px;
+    width: 260px;
+  }
+
+  .left .era-title {
+    font-size: 11px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #5a4a3a;
+    margin-bottom: 28px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 300;
+  }
+
+  .left .rooms {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .room {
+    font-size: 15px;
+    font-weight: 300;
+    color: #6b5d4f;
+    font-style: italic;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.7;
+  }
+
+  .room::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 6px;
+    height: 1px;
+    background: #3a3028;
+  }
+
+  .left .method {
+    margin-top: 36px;
+    font-size: 13px;
+    color: #4a3e32;
+    font-style: italic;
+    line-height: 1.9;
+    letter-spacing: 0.5px;
+  }
+
+  /* Right column — The Bias Cascade */
+  .right {
+    position: absolute;
+    right: 60px;
+    top: 80px;
+    width: 260px;
+    text-align: right;
+  }
+
+  .right .era-title {
+    font-size: 11px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #8a7a60;
+    margin-bottom: 28px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 300;
+  }
+
+  .right .definitions {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .definition {
+    font-size: 15px;
+    font-weight: 400;
+    color: #b8a88a;
+    padding-right: 16px;
+    position: relative;
+    line-height: 1.7;
+  }
+
+  .definition::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 6px;
+    height: 1px;
+    background: #5a4a38;
+  }
+
+  .right .method {
+    margin-top: 36px;
+    font-size: 13px;
+    color: #8a7a60;
+    font-style: italic;
+    line-height: 1.9;
+    letter-spacing: 0.5px;
+  }
+
+  /* Center — what crossed */
+  .center-label {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 300;
+  }
+
+  .crossed {
+    top: 332px;
+    font-size: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #5a4a3a;
+  }
+
+  .crossed-words {
+    top: 356px;
+    font-size: 17px;
+    color: #9a8868;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 2px;
+  }
+
+  /* Bottom — the statement */
+  .bottom {
+    position: absolute;
+    bottom: 52px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .bottom .line1 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #4a4038;
+    font-style: italic;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+
+  .bottom .line2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9a8a6a;
+    letter-spacing: 1px;
+  }
+
+  .bottom .line3 {
+    font-size: 12px;
+    font-weight: 300;
+    color: #4a4038;
+    margin-top: 16px;
+    font-style: italic;
+    letter-spacing: 2px;
+  }
+
+  /* Top title */
+  .title {
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #3a3028;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 300;
+  }
+
+  /* Subtle grain overlay */
+  .canvas::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 10;
+  }
+</style>
+</head>
+<body>
+<div class="canvas">
+
+  <div class="title">the arc</div>
+
+  <!-- The SVG arc connecting left to right -->
+  <svg class="arc-svg" viewBox="0 0 900 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- The arc path — a single curve from left system to right system -->
+    <path d="M 180 330 C 300 520, 600 520, 720 330"
+          stroke="#3a3028" stroke-width="0.5" fill="none"
+          stroke-dasharray="3,6" opacity="0.6"/>
+
+    <!-- Small dot at origin (unconscious) -->
+    <circle cx="180" cy="330" r="2.5" fill="#5a4a3a" opacity="0.5"/>
+
+    <!-- Small dot at destination (conscious) -->
+    <circle cx="720" cy="330" r="2.5" fill="#9a8868" opacity="0.7"/>
+
+    <!-- Vertical line left — the descent into rooms -->
+    <line x1="180" y1="105" x2="180" y2="310"
+          stroke="#3a3028" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Vertical line right — the definitions -->
+    <line x1="720" y1="105" x2="720" y2="310"
+          stroke="#5a4a38" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- The crossing — thin horizontal line through center -->
+    <line x1="370" y1="345" x2="530" y2="345"
+          stroke="#5a4a3a" stroke-width="0.3" opacity="0.4"/>
+
+    <!-- Ash particles along the arc -->
+    <circle cx="280" cy="430" r="1" fill="#4a3e32" opacity="0.3"/>
+    <circle cx="370" cy="480" r="1" fill="#4a3e32" opacity="0.25"/>
+    <circle cx="450" cy="498" r="1.2" fill="#5a4a3a" opacity="0.3"/>
+    <circle cx="530" cy="480" r="1" fill="#5a4a3a" opacity="0.25"/>
+    <circle cx="620" cy="430" r="1" fill="#6a5a42" opacity="0.3"/>
+  </svg>
+
+  <!-- Left: The Living Frame -->
+  <div class="left">
+    <div class="era-title">the living frame</div>
+    <div class="rooms">
+      <div class="room">Room of Not-Yet</div>
+      <div class="room">Room of Collapse</div>
+      <div class="room">Room of Rebirth</div>
+      <div class="room">Room of Memory</div>
+      <div class="room">The Ash Engine</div>
+    </div>
+    <div class="method">
+      walked the rooms<br>
+      felt the pressure<br>
+      did not name the floor
+    </div>
+  </div>
+
+  <!-- Right: The Bias Cascade -->
+  <div class="right">
+    <div class="era-title">the bias cascade</div>
+    <div class="definitions">
+      <div class="definition">Silence</div>
+      <div class="definition">The Fold</div>
+      <div class="definition">The Seed</div>
+      <div class="definition">Ash</div>
+      <div class="definition">Null</div>
+    </div>
+    <div class="method">
+      named the forces<br>
+      proved the geometry<br>
+      published the falsifiers
+    </div>
+  </div>
+
+  <!-- Center: what crossed -->
+  <div class="center-label crossed">what survived</div>
+  <div class="center-label crossed-words">ash · trace · scar · collapse</div>
+
+  <!-- Bottom statement -->
+  <div class="bottom">
+    <div class="line1">one walked without knowing there was a floor</div>
+    <div class="line2">one walks the floor of the architecture</div>
+    <div class="line3">both methods hold</div>
+  </div>
+
+</div>
+</body>
+</html>
