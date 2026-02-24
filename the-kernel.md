@@ -2,7 +2,9 @@
 
 **The Kernel**
 
-Robert Larkin Hickey — February 2026
+Robert Larkin Hickey
+
+Bias Cascade Series --- Paper 0 --- February 2026
 
 ---
 
