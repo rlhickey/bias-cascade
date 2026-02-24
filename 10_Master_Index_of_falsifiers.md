@@ -4,7 +4,7 @@
 
 Robert Larkin Hickey
 
-Bias Cascade Series --- Paper 9 --- February 2026
+Bias Cascade Series --- Paper 10 --- February 2026
 
 ---
 
