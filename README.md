@@ -21,7 +21,7 @@ Nine papers. Thirty-four falsifiers. All open.
 
 ## Papers
 
-| \\# | Paper                                                               | Subtitle                                                         | Subject            |
+| \# | Paper                                                               | Subtitle                                                         | Subject            |
 | --- | ------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------ |
 | 01  | [SNAP](01_snap.md)                                           | The Origin Event, the Axiom of Partition, and the First Cost     | Origin event       |
 | 02  | [The Bias Cascade](02_the_bias_cascade.md)                   | Truth, Observation, Value, Witness, and the Loop That Binds Them | The engine         |
