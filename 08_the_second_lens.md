@@ -219,7 +219,9 @@ All by Robert Larkin Hickey, 2026.
 
 *The architect comes before the aim.*
 
-*The second lens was always here.*
+*The second lens comes after.*
+
+*From ash we echo — the echo is the seed.*
 
 ---
 
