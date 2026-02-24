@@ -23,7 +23,7 @@ Nine papers. Thirty-four falsifiers. All open.
 
 | \# | Paper                                                               | Subtitle                                                         | Subject            |
 | --- | ------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------ |
-| 01  | [SNAP](01_snap.md)                                           | The Origin Event, the Axiom of Partition, and the First Cost     | Origin event       |
+| 01  | [SNAP](bias-cascade/01_snap.md)                                           | The Origin Event, the Axiom of Partition, and the First Cost     | Origin event       |
 | 02  | [The Bias Cascade](02_the_bias_cascade.md)                   | Truth, Observation, Value, Witness, and the Loop That Binds Them | The engine         |
 | 03  | [The Geometry of Persistence](03_geometry_of_persistence.md) | The Structural Architecture of the Bias Cascade                  | The floor          |
 | 04  | [The Economics of Commitment](04_economics_of_commitment.md) | Cost, Emission, Ash, and the Price of Persistence                | Cost layer         |
