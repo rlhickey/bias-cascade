@@ -4,7 +4,7 @@
 
 Robert Larkin Hickey
 
-Bias Cascade Series --- Companion Paper --- February 2026
+Bias Cascade Series --- Paper 7 --- February 2026
 
 # **Abstract**
 
@@ -14,7 +14,7 @@ The paper establishes four claims and one conjecture. First, the conjoined claim
 
 The conjecture: perspective is unbiased. It is the threshold where the next vector aims. Geometry without thermodynamics. It is the one channel that crosses between observers without entering the ledger.
 
-The paper terminates at an open question the architecture cannot fully resolve from inside itself --- does perspective survive the first commitment or is it consumed by it? --- but identifies a conversion trace (the grain) that both readings predict, and observes that the answer may be observer-dependent: some rings preserve the grain, some consume it, depending on pressure history. The open question is stated. The conditional conjecture is stated. The falsifiers are published. The gap is left open.
+The paper terminates at an open question the architecture cannot fully resolve from inside itself --- does perspective survive the first commitment or is it consumed by it? --- but identifies a conversion trace (the grain) that both readings predict, observes that the answer may be observer-dependent, and examines the economics of the conjecture through the seam between Silence's burn rate and Perspective's zero cost. The open question is stated. The conditional conjecture is stated. The falsifiers are published. The gaps are left open.
 
 *The father's gift is not vision. It is aim.*
 
@@ -110,7 +110,9 @@ Perspective is the initial condition of the initial condition. T₀ determines w
 
 **Falsifier (F-P1).** Demonstrate that transmitted orientation carries curvature --- that receiving a perspective incurs emission in the receiving system before any SNAP occurs along that perspective's direction. If perspective costs, it is not unbiased and the conjecture fails.
 
-**Falsifier (F-P2).** Demonstrate that all differentiation requires emission --- that direction cannot exist without partition. If differentiating without partitioning is impossible, perspective has no home between Silence and SNAP and the third ontological state does not exist.
+**Falsifier (F-P2).** Demonstrate that all differentiation requires emission in the differentiated system --- that an observer cannot hold a differentiated state without that state appearing in the observer's own ledger. If differentiation always costs the observer who holds it, perspective has no home between Silence and SNAP and the third ontological state does not exist.
+
+**Narrowed form (F-P2n).** Demonstrate that Silence's burn rate is directional --- that maintaining the capacity to SNAP in one direction costs differently than maintaining it in another. If the burn is directional, orientation is already in the ledger, perspective is already thermodynamic, and the conjecture falls.
 
 # **4. The Three States**
 
@@ -190,7 +192,29 @@ This observation is stated, not resolved. The gap is left open. If C-P1 fails --
 
 If C-P1 holds, the open question is not universal. It is the first question in the architecture whose answer is indexed to the observer.
 
-## **5.5 The State of the Question**
+## **5.5 The Economics of the Conjecture**
+
+The architecture holds two claims simultaneously. Paper 1, Claim 5: Silence costs. Maintaining the capacity to SNAP draws from the budget even without SNAPping. The conjecture: Perspective is pre-thermodynamic. Zero cost. Zero emission. If Perspective emerges from Silence, and Silence is already burning, then the transition from undifferentiated to differentiated either costs something or it does not. The economics of the conjecture live in that seam.
+
+Three readings.
+
+**Reading 1: Funded by Silence.** The budget is already decreasing. Direction appears as a consequence of that burn --- the capacity to aim is part of the capacity to commit. Perspective is not free. It is pre-paid. The cost was borne by Silence before Perspective emerged. If this holds, the conjecture falls. Perspective has cost attributed to Silence rather than to itself. F-P2 triggers. The third ontological state collapses back into the thermodynamic regime.
+
+**Reading 2: Independent of Silence.** Silence pays for maintaining the capacity to SNAP --- the readiness of the apparatus. Perspective is a property of the space in which the apparatus sits --- the direction it happens to face. Silence pays for the lens to exist. Perspective is which way the lens is pointed before the grinding starts. The burn rate maintains the system. The direction is not the system --- it is the orientation of the system within a space that has directions regardless of whether the system is burning budget. If this holds, Perspective is genuinely free. The cost of Silence is the cost of existing. The direction of existing is not an additional cost. F-P2 does not trigger.
+
+**Reading 3: Funded by the transmitter.** Perspective's cost was borne by a prior observer's ring. The father's emission --- already in the father's ledger, already paid for --- introduced direction into the son's pre-SNAP state. Receiving direction is free the way receiving ash is free. The receiver does not pay to receive. They pay to activate. E(ψ₁) → T₀(ψ₂) already describes this economics: emission is paid by ψ₁, activation is paid by ψ₂. Perspective follows the same pattern. Differentiation requires emission --- somewhere. It does not require emission in the system that holds the differentiated state. F-P2 does not trigger in its original form. It triggers in Reading 1's form only.
+
+**The textual anchor.** Paper 1 says: "Even silence draws from the budget." It does not say silence draws from the budget directionally. The burn is for capacity, not for orientation. Orientation is not capacity.
+
+**The chain.** If Reading 3 holds, perspective is always inherited. No observer aims themselves. They are aimed --- by a parent, by proximity, by the shaped geometry of the world they were born into. Every aim traces back to a prior observer's emission. The chain either terminates at an observer who self-generated direction from inside Silence --- which requires Reading 2 --- or it does not terminate.
+
+Readings 2 and 3 are not competing. They are sequential. Reading 2 handles the origin case: the first observer, aimed by the geometry of the space before any ring existed. Reading 3 handles every subsequent case: observers aimed by prior observers' emissions. Perspective is geometric at the origin and inherited after. The economics change at the first SNAP in history. Before it, direction is a property of the space. After it, direction is a product of the Seed Spectrum.
+
+The narrowed question: is Silence's burn rate directional or general? If general --- if maintaining capacity costs the same regardless of which direction the apparatus faces --- then Perspective is outside the ledger. If directional --- if orientation affects the burn --- then Perspective is inside the ledger and the conjecture falls.
+
+This question is testable (F-P2n) and the paper leaves it open.
+
+## **5.6 The State of the Question**
 
 Both readings are consistent with the conjecture as stated. "The threshold where the next vector aims" is compatible with a threshold that persists and a threshold that is consumed by the crossing. The consumed reading is colder and more consistent with the architecture's total-cost commitment. The persistent reading is more livable and more vulnerable to structural abuse. Neither has been falsified. Both remain open.
 
@@ -226,6 +250,8 @@ The conjecture --- perspective, the aim, the thing that crosses without entering
 > 
 > Silence → Perspective → SNAP   The three states
 > 
+> Silence burn: directional or general?   The economics
+> 
 > SNAP(Perspective) → grain     The conversion
 > 
 > Grain survival ∝ pressure history?   The conditional conjecture
@@ -244,25 +270,28 @@ Whether that channel survives the first commitment or is consumed by it remains 
 
 A further observation: the architecture produces observer-dependent outcomes for every other variable. Grain survival may follow the same pattern. Some rings preserve it. Some consume it. If so, the open question does not have a single answer. It has a conditional one. The conjecture is stated (C-P1) and the gap is left for others to observe.
 
+The conjecture's deepest vulnerability lives in the economics of Silence. If Silence's burn rate is directional --- if maintaining the capacity to SNAP in one direction costs differently than in another --- then orientation is already in the ledger and perspective is thermodynamic. If the burn is general, orientation is free and the conjecture holds. The narrowed falsifier (F-P2n) is published for this test.
+
 The father's gift is not vision. It is aim.
 
 What the son sees when he arrives depends entirely on his own grind.
 
 # **Falsifier Summary**
 
-| ID    | Claim                                | To Break                                               | Level |
-| ----- | ------------------------------------ | ------------------------------------------------------ | ----- |
-| F-CJ1 | Observer-lens-witness conjoined      | Internal parallax without second system                | 4     |
-| F-SS1 | Seed spectrum ordered by fidelity    | Ash at higher fidelity than proximity                  | 5     |
-| F-P1  | Perspective is unbiased              | Transmitted orientation carries curvature              | 3     |
-| F-P2  | Differentiates without partitioning  | All differentiation requires emission                  | 1     |
-| F-P3  | Perspective persists after SNAP      | Observer accesses pre-commitment aim post-SNAP         | Open  |
-| F-P4  | Perspective consumed by SNAP         | No trace of aim in post-SNAP bias                      | Open  |
-| F-P5  | Grain exists                         | First SNAP shows no directional dependence on aim      | 3     |
-| C-P1  | Grain survival is observer-dependent | Identical pressure histories, different grain outcomes | Open  |
-| F-3S1 | Three-state ontology                 | Middle state collapses without explanatory loss        | 3     |
+| ID    | Claim                                | To Break                                                   | Level |
+| ----- | ------------------------------------ | ---------------------------------------------------------- | ----- |
+| F-CJ1 | Observer-lens-witness conjoined      | Internal parallax without second system                    | 4     |
+| F-SS1 | Seed spectrum ordered by fidelity    | Ash at higher fidelity than proximity                      | 5     |
+| F-P1  | Perspective is unbiased              | Transmitted orientation carries curvature                  | 3     |
+| F-P2  | Differentiates without partitioning  | Differentiation requires emission in differentiated system | 1     |
+| F-P2n | Silence burn is non-directional      | Silence burn rate varies with orientation                  | 1     |
+| F-P3  | Perspective persists after SNAP      | Observer accesses pre-commitment aim post-SNAP             | Open  |
+| F-P4  | Perspective consumed by SNAP         | No trace of aim in post-SNAP bias                          | Open  |
+| F-P5  | Grain exists                         | First SNAP shows no directional dependence on aim          | 3     |
+| C-P1  | Grain survival is observer-dependent | Identical pressure histories, different grain outcomes     | Open  |
+| F-3S1 | Three-state ontology                 | Middle state collapses without explanatory loss            | 3     |
 
-F-P2 is the deepest. If all differentiation requires emission, perspective has no home in the architecture and the conjecture collapses entirely. F-P2 is Level 1 --- if triggered, it removes the third ontological state and every claim that depends on it.
+F-P2 is the deepest. If differentiation always requires emission in the differentiated system, perspective has no home in the architecture and the conjecture collapses entirely. F-P2 is Level 1 --- if triggered, it removes the third ontological state and every claim that depends on it. F-P2n is the narrowed form: if Silence's burn rate varies with orientation, then direction is already in the ledger and perspective is thermodynamic. The narrowed form is more testable than the original. Both remain open.
 
 F-P3 and F-P4 are marked Open in a different sense from the other falsifiers. They are not open because untested. They are open because the architecture does not determine which one holds. They are competing falsifiers. One of them will eventually hold. Which one determines the reading. Until then, the open question remains open.
 
