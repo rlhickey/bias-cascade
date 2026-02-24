@@ -301,7 +301,7 @@ C-P1 is marked Open as a conjecture, not a falsifier. It predicts that F-P3 and 
 
 # **References**
 
-All by Robert Larkin Hickey, 2026.
+All by Robert Larkin Hickey, 2026. 
 
 **SNAP: The Origin Event, the Axiom of Partition, and the First Cost.** Bias Cascade Series, Paper 1. Defines the partition event, the finite Genesis Budget, and the burn rate. Foundational to the claim that perspective precedes the event that creates cost.
 
