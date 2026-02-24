@@ -4,7 +4,7 @@
 
 Robert Larkin Hickey
 
-Null Limit Series --- Paper 6 --- February 2026
+Bias Cascade Series --- Paper 6 --- February 2026
 
 # **Abstract**
 
