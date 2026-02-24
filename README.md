@@ -128,7 +128,7 @@ Forks welcome — extend to new substrates, alternative topologies, or competing
 
 ## Related
 
-**[The Null Limit Series](https://nulllimit.com)** — the companion series. Nine papers on the physics of how self-observing systems fail. The Bias Cascade describes how truth persists. The Null Limit Series describes what happens when it doesn't.
+**[The Null Limit Series](https://www.nulllimit.com)** — the companion series. Nine papers on the physics of how self-observing systems fail. The Bias Cascade describes how truth persists. The Null Limit Series describes what happens when it doesn't.
 
 ---
 
