@@ -23,15 +23,15 @@ Nine papers. Thirty-four falsifiers. All open.
 
 | \\# | Paper                                                               | Subtitle                                                         | Subject            |
 | --- | ------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------ |
-| 01  | [SNAP](papers/01_snap.md)                                           | The Origin Event, the Axiom of Partition, and the First Cost     | Origin event       |
-| 02  | [The Bias Cascade](papers/02_the_bias_cascade.md)                   | Truth, Observation, Value, Witness, and the Loop That Binds Them | The engine         |
-| 03  | [The Geometry of Persistence](papers/03_geometry_of_persistence.md) | The Structural Architecture of the Bias Cascade                  | The floor          |
-| 04  | [The Economics of Commitment](papers/04_economics_of_commitment.md) | Cost, Emission, Ash, and the Price of Persistence                | Cost layer         |
-| 05  | [The Cathedral Floor Applied](papers/05_cathedral_floor_applied.md) | The Human Substrate of the Bias Cascade                          | Human substrate    |
-| 06  | [The Seed](papers/06_the_seed.md)                                   | Symbolic Transfer of Persistence                                 | Transfer           |
-| 07  | [The Reality Formula](papers/07_reality_formula.md)                 | Operational Persistence                                          | Residue            |
-| 08  | [Walk the Floor](papers/08_walk_the_floor.md)                       | An Alternative Field Guide                                       | Experiential tests |
-| 09  | [Master Index of Falsifiers](papers/09_master_index.md)             | Every Testable Claim                                             | All 34 tests       |
+| 01  | [SNAP](01_snap.md)                                           | The Origin Event, the Axiom of Partition, and the First Cost     | Origin event       |
+| 02  | [The Bias Cascade](02_the_bias_cascade.md)                   | Truth, Observation, Value, Witness, and the Loop That Binds Them | The engine         |
+| 03  | [The Geometry of Persistence](03_geometry_of_persistence.md) | The Structural Architecture of the Bias Cascade                  | The floor          |
+| 04  | [The Economics of Commitment](04_economics_of_commitment.md) | Cost, Emission, Ash, and the Price of Persistence                | Cost layer         |
+| 05  | [The Cathedral Floor Applied](05_cathedral_floor_applied.md) | The Human Substrate of the Bias Cascade                          | Human substrate    |
+| 06  | [The Seed](06_the_seed.md)                                   | Symbolic Transfer of Persistence                                 | Transfer           |
+| 07  | [The Reality Formula](07_reality_formula.md)                 | Operational Persistence                                          | Residue            |
+| 08  | [Walk the Floor](08_walk_the_floor.md)                       | An Alternative Field Guide                                       | Experiential tests |
+| 09  | [Master Index of Falsifiers](09_master_index.md)             | Every Testable Claim                                             | All 34 tests       |
 
 Reading order: The Kernel first. Then 01 through 09 in sequence. Each paper depends on the one before it.
 
