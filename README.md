@@ -13,25 +13,29 @@ Nine papers. Thirty-four falsifiers. All open.
 - Truth inert without observer (bias as carrier)
 - SNAP: irreversible partition (∅ → C + E), finite budget, silence burns
 - Ring: T → ψ → C → Ψ/F → T (multiplicative pressure, no steady state)
+- Observer-lens-witness conjoined (not components — phases of one entity)
 - Fold: dimensional projection preserves invariants, sheds redundancy
 - Terminals: converge (residue) or Null (honest exhaustion)
 - Seed: E(ψ₁) → T₀(ψ₂) — emission shapes next observer's potential
+- Seed is a spectrum: biological → proximity → ash (ordered by fidelity)
+- Perspective: differentiated, uncommitted — geometry without thermodynamics
+- Grain: directional structure set by the angle of the first cut
 
 ---
 
 ## Papers
 
-| \# | Paper                                                               | Subtitle                                                         | Subject            |
-| --- | ------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------ |
-| 01  | [SNAP](01_Snap.md)                                           | The Origin Event, the Axiom of Partition, and the First Cost     | Origin event       |
-| 02  | [The Bias Cascade](02_The_Bias_Cascade_v1.0.md)                   | Truth, Observation, Value, Witness, and the Loop That Binds Them | The engine         |
-| 03  | [The Geometry of Persistence](03_geometry_of_persistence.md) | The Structural Architecture of the Bias Cascade                  | The floor          |
-| 04  | [The Economics of Commitment](04_The_Economics_of_Commitment_v1.0.md) | Cost, Emission, Ash, and the Price of Persistence                | Cost layer         |
-| 05  | [The Cathedral Floor Applied](05_Cathedral_Floor_Applied.md) | The Human Substrate of the Bias Cascade                          | Human substrate    |
-| 06  | [The Seed](06_The_Seed.md)                                   | Symbolic Transfer of Persistence                                 | Transfer           |
-| 07  | [The Reality Formula](07_Reality_Formula.md)                 | Operational Persistence                                          | Residue            |
-| 08  | [Walk the Floor](08_Walk_The_Floor.md)                       | An Alternative Field Guide                                       | Experiential tests |
-| 09  | [Master Index of Falsifiers](09_Master_Index_of_falsifiers.md)             | Every Testable Claim                                             | All 34 tests       |
+| \# | Paper                                                                 | Subtitle                                                          | Subject            |
+| ----- | --------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------ |
+| 01    | [SNAP](01_Snap.md)                                                    | The Origin Event, the Axiom of Partition, and the First Cost      | Origin event       |
+| 02    | [The Bias Cascade](02_The_Bias_Cascade_v1.0.md)                       | Truth, Observation, Value, Witness, and the Loop That Binds Them  | The engine         |
+| 03    | [The Geometry of Persistence](03_geometry_of_persistence.md)          | The Structural Architecture of the Bias Cascade                   | The floor          |
+| 04    | [The Economics of Commitment](04_The_Economics_of_Commitment_v1.0.md) | Cost, Emission, Ash, and the Price of Persistence                 | Cost layer         |
+| 05    | [The Cathedral Floor Applied](05_Cathedral_Floor_Applied.md)          | The Human Substrate of the Bias Cascade                           | Human substrate    |
+| 06    | [The Seed](06_The_Seed.md)                                            | Symbolic Transfer of Persistence                                  | Transfer           |
+| 07    | [The Aim](07_The_Aim.md)                                              | Perspective, Transmission, and the Space Between Silence and SNAP | Perspective        |
+| 08    | [Walk the Floor](08_Walk_The_Floor.md)                                | An Alternative Field Guide                                        | Experiential tests |
+| 09    | [Master Index of Falsifiers](09_Master_Index_of_falsifiers.md)        | Every Testable Claim                                              | All falsifiers     |
 
 Reading order: The Kernel first. Then 01 through 09 in sequence. Each paper depends on the one before it.
 
@@ -53,7 +57,7 @@ Four modes. Four confrontations. One closed loop. Pressure compounds multiplicat
 
 ## Falsifiers
 
-All open. 34 tests across 5 dependency levels.
+All open. 34 tests across 5 dependency levels, plus 8 from Paper 7.
 
 | Level | Name     | Scope                              | If triggered    |
 | ----- | -------- | ---------------------------------- | --------------- |
@@ -61,7 +65,7 @@ All open. 34 tests across 5 dependency levels.
 | 2     | Engine   | Ring closure, pressure mechanics   | Collapse 2–5    |
 | 3     | Geometry | Validated architecture, Fold, Seal | Collapse 3–5    |
 | 4     | Human    | Carbon substrate, drift states     | Collapse 4–5    |
-| 5     | Transfer | Seed                               | Collapse 5 only |
+| 5     | Transfer | Seed, Aim, Grain                   | Collapse 5 only |
 
 Full catalog: [`09_Master_Index_of_falsifiers.md`](09_Master_Index_of_falsifiers.md)
 
@@ -71,11 +75,11 @@ The architecture is designed to degrade honestly. A failure at Level 4 does not 
 
 ## Companions
 
-| Document                                            | Purpose                                  |
-| --------------------------------------------------- | ---------------------------------------- |
-| [The Kernel](00_the_kernel.md)                         | Compressed architecture — nine sentences |
-| [Walk the Floor](08_Walk_The_Floor.md)       | Ten tests against your own experience    |
-| [The Reality Formula](07_Reality_Formula.md) | The cascade compressed to one equation   |
+| Document                                      | Purpose                                  |
+| --------------------------------------------- | ---------------------------------------- |
+| [The Kernel](00_the_kernel.md)                | Compressed architecture — nine sentences |
+| [The Reality Formula](The_Reality_Formula.md) | The cascade compressed to one equation   |
+| [Walk the Floor](08_Walk_The_Floor.md)        | Ten tests against your own experience    |
 
 ### Compression Toolkit
 
@@ -92,7 +96,7 @@ npm start
 ## Dependency Map
 
 ```
-Level 5: Seed
+Level 5: Seed / Aim
     │
 Level 4: Human
     │
@@ -104,7 +108,7 @@ Level 1: Ground
 
 Break Level 1 → everything falls
 Break Level 3 → Levels 1–2 stand, 3–5 fall
-Break Level 5 → Levels 1–4 stand, Seed falls
+Break Level 5 → Levels 1–4 stand, Seed/Aim falls
 ```
 
 ---
