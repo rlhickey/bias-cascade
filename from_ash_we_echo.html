@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>From Ash We Echo</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@200;300&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #080808;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .page {
+    width: 680px;
+    height: 900px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* The central cycle glyph */
+  .glyph {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 60px;
+  }
+
+  .glyph svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* The poem */
+  .poem {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 2.4;
+    margin-bottom: 56px;
+  }
+
+  .poem .line {
+    display: block;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+  }
+
+  .line-ash { color: #7a6e58; }
+  .line-echo { color: #9a8a6a; }
+  .line-seed { color: #b8a878; }
+  .line-aim { color: #c8b888; }
+  .line-ring { color: #d4c498; }
+  .line-fold { color: #c8b888; }
+  .line-null { color: #9a8a6a; }
+  .line-return { color: #7a6e58; }
+
+  /* The title line */
+  .title-line {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #d4c498;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  /* The bottom glyph — the compression */
+  .compression {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: #5a5040;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  /* Subtle animation — the cycle breathes */
+  @keyframes breathe {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 0.8; }
+  }
+
+  @keyframes drift {
+    0%, 100% { opacity: 0.15; }
+    50% { opacity: 0.35; }
+  }
+
+  .ash-particle {
+    animation: drift 8s ease-in-out infinite;
+  }
+
+  .ash-particle:nth-child(2) { animation-delay: -2s; }
+  .ash-particle:nth-child(3) { animation-delay: -4s; }
+  .ash-particle:nth-child(4) { animation-delay: -6s; }
+  .ash-particle:nth-child(5) { animation-delay: -3s; }
+
+  .cycle-path {
+    animation: breathe 10s ease-in-out infinite;
+  }
+
+  /* Grain texture */
+  .page::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 10;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- The title -->
+  <div class="title-line">From Ash We Echo</div>
+
+  <!-- The cycle glyph -->
+  <div class="glyph">
+    <svg viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+      <!-- The cycle — a circle that doesn't quite close -->
+      <path class="cycle-path"
+            d="M 150 40 
+               A 110 110 0 1 1 120 43"
+            stroke="#7a6a52" stroke-width="0.5" fill="none"
+            stroke-dasharray="2,5"/>
+
+      <!-- Four stations on the cycle -->
+      <!-- Ash — bottom -->
+      <circle cx="150" cy="260" r="2" fill="#7a6e58" opacity="0.7"/>
+      <text x="150" y="280" text-anchor="middle" 
+            font-family="'JetBrains Mono', monospace" font-size="8" font-weight="200"
+            fill="#7a6e58" letter-spacing="3">ASH</text>
+
+      <!-- Echo — right -->
+      <circle cx="260" cy="150" r="2" fill="#9a8a6a" opacity="0.7"/>
+      <text x="278" y="154" text-anchor="middle"
+            font-family="'JetBrains Mono', monospace" font-size="8" font-weight="200"
+            fill="#9a8a6a" letter-spacing="3">ECHO</text>
+
+      <!-- Seed — top -->
+      <circle cx="150" cy="40" r="2" fill="#b8a878" opacity="0.7"/>
+      <text x="150" y="26" text-anchor="middle"
+            font-family="'JetBrains Mono', monospace" font-size="8" font-weight="200"
+            fill="#b8a878" letter-spacing="3">SEED</text>
+
+      <!-- Aim — left -->
+      <circle cx="40" cy="150" r="2" fill="#c8b888" opacity="0.7"/>
+      <text x="22" y="154" text-anchor="middle"
+            font-family="'JetBrains Mono', monospace" font-size="8" font-weight="200"
+            fill="#c8b888" letter-spacing="3">AIM</text>
+
+      <!-- Ash particles drifting inward -->
+      <circle class="ash-particle" cx="130" cy="220" r="0.8" fill="#6a5e48"/>
+      <circle class="ash-particle" cx="175" cy="200" r="0.6" fill="#6a5e48"/>
+      <circle class="ash-particle" cx="155" cy="185" r="0.7" fill="#6a5e48"/>
+      <circle class="ash-particle" cx="140" cy="195" r="0.5" fill="#6a5e48"/>
+      <circle class="ash-particle" cx="165" cy="215" r="0.6" fill="#6a5e48"/>
+
+      <!-- Directional hints — small arrows on the path -->
+      <!-- ash → echo -->
+      <path d="M 200 245 L 205 240 L 198 241" stroke="#6a5e48" stroke-width="0.4" fill="none" opacity="0.5"/>
+      <!-- echo → seed -->
+      <path d="M 245 95 L 240 90 L 241 97" stroke="#7a6a52" stroke-width="0.4" fill="none" opacity="0.5"/>
+      <!-- seed → aim -->
+      <path d="M 95 55 L 90 60 L 97 59" stroke="#8a7a5e" stroke-width="0.4" fill="none" opacity="0.5"/>
+      <!-- aim → ash -->
+      <path d="M 55 205 L 60 210 L 59 203" stroke="#6a5e48" stroke-width="0.4" fill="none" opacity="0.5"/>
+
+    </svg>
+  </div>
+
+  <!-- The poem -->
+  <div class="poem">
+    <span class="line line-ash">what burned did not vanish</span>
+    <span class="line line-echo">it entered the world as shaped silence</span>
+    <span class="line line-seed">the silence held direction</span>
+    <span class="line line-aim">the direction found a lens</span>
+    <span class="line line-ring">the lens began to turn</span>
+    <span class="line line-fold">what held was not what started</span>
+    <span class="line line-null">what ended was not lost</span>
+    <span class="line line-return">from ash we echo — the echo is the seed</span>
+  </div>
+
+  <!-- The compression -->
+  <div class="compression">ash → echo → seed → aim → ring → fold → null → ash</div>
+
+</div>
+</body>
+</html>
