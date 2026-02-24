@@ -28,15 +28,17 @@ An unground lens transmits all, resolves none. Light undifferentiated—no focus
 
 A flat mirror returns everything. A ground mirror — committed geometry — creates focus. It resolves or distorts, depending on the grind's fidelity. Lens or distortion? Not bias's presence or absence—both are curved. The test: interrogation under pressure, correction from external angle.
 
-That angle is parallax: angular offset revealing depth. Zero parallax? The system sees its reflection, calls it truth. With parallax, dual views expose variance—truth resides in the delta.
+That angle is parallax — angular offset between two observers facing the same object. At zero parallax, the system sees its own reflection and calls it truth. With parallax, dual views expose variance. The delta is where distortion becomes visible.
 
-Formally: σ(F_ψ), variance in the observer's fidelity function. At σ = 0, unground: total transmission, zero resolve. At σ > 0, cut: vision gained, totality lost.
+But parallax has a failure mode. If both lenses share the same grind — the same structural commitments — the variance between them is zero. They confirm each other's distortion and call it objectivity. One lens cannot triangulate. Parallax requires opposing curvature: lenses whose commitments conflict. Truth is not the delta. Truth is what survives the collision.
 
- σ — curvature. How committed the lens is. \
- F — fidelity. How accurately the lens resolves. \
- ψ — the observer. This specific lens, with this specific grind. \
- σ = 0 — flat glass. No commitment. Sees nothing. \
- σ > 0 — ground glass. Committed. Sees. 
+Formally: σ(F\_ψ), variance in the observer's fidelity function. At σ = 0, unground: total transmission, zero resolve. At σ \> 0, cut: vision gained, totality lost.
+
+σ — curvature. How committed the lens is.\\
+F — fidelity. How accurately the lens resolves.\\
+ψ — the observer. This specific lens, with this specific grind.\\
+σ = 0 — flat glass. No commitment. Sees nothing.\\
+σ \> 0 — ground glass. Committed. Sees.
 
 Prejudice: unexamined curvature — resolving without verification.
 
@@ -74,7 +76,7 @@ Under maximum pressure, the system folds. It sheds what is not load-bearing. Opi
 
 ### 8. The architecture is falsifiable.
 
-Every structural claim in this framework has an explicit falsifier — a specific observation that, if demonstrated, would collapse it. Thirty-four falsifiers across five dependency levels. Break the ground level and everything above it falls. Break the top level and only the top falls. A framework that cannot be broken is not a framework. It is a story.
+Every structural claim in this framework has an explicit falsifier — a specific observation that, if demonstrated, would collapse it. Thirty-five falsifiers across five dependency levels. Break the ground level and everything above it falls. Break the top level and only the top falls. A framework that cannot be broken is not a framework. It is a story.
 
 ### 9. The invitation to break it is permanent.
 
@@ -82,11 +84,11 @@ This series will hand you the tools to test every claim, trace every dependency,
 
 ---
 
-The full uncompressed architecture — companion documentation, formal specifications, diagrams, and diagnostic instruments — will be published in a public GitHub repository as the series progresses. Subscribe for updates. Reply to any email for early access and discussion.
+The full uncompressed architecture — companion documentation, formal specifications, diagrams, and diagnostic instruments — lives in a public GitHub repository. Subscribe for updates. Reply to any email for early access and discussion.
 
 ———
 
-If this landed, reply. The work is better with parallax.
+If this resolved something for you, reply. Your reading is a lens I cannot hold. The architecture needs the angle.
 
 ---
 
