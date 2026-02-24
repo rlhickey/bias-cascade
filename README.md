@@ -2,6 +2,8 @@
 
 **Truth may not persist without bias.**
 
+>The ash doesn't know whose fire it came from. It still shapes the ground.
+
 An engine for truth-persistence under pressure. Four-mode ring generates compounding pressure, folds to residue or exhausts to Null. Geometry proven substrate-agnostic. Human application: observer inside the ring, cost drawn from bonded substrate.
 
 Ten papers. Thirty-four falsifiers. All open.
