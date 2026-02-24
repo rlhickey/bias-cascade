@@ -4,7 +4,7 @@
 
 An engine for truth-persistence under pressure. Four-mode ring generates compounding pressure, folds to residue or exhausts to Null. Geometry proven substrate-agnostic. Human application: observer inside the ring, cost drawn from bonded substrate.
 
-Nine papers. Thirty-four falsifiers. All open.
+Ten papers. Thirty-four falsifiers. All open.
 
 ---
 
@@ -20,6 +20,7 @@ Nine papers. Thirty-four falsifiers. All open.
 - Seed is a spectrum: biological → proximity → ash (ordered by fidelity)
 - Perspective: differentiated, uncommitted — geometry without thermodynamics
 - Grain: directional structure set by the angle of the first cut
+- Architect's position: E3, not E1 — the ring does not describe its builder
 
 ---
 
@@ -34,10 +35,11 @@ Nine papers. Thirty-four falsifiers. All open.
 | 05    | [The Cathedral Floor Applied](05_Cathedral_Floor_Applied.md)          | The Human Substrate of the Bias Cascade                           | Human substrate    |
 | 06    | [The Seed](06_The_Seed.md)                                            | Symbolic Transfer of Persistence                                  | Transfer           |
 | 07    | [The Aim](07_The_Aim.md)                                              | Perspective, Transmission, and the Space Between Silence and SNAP | Perspective        |
-| 08    | [Walk the Floor](08_Walk_The_Floor.md)                                | An Alternative Field Guide                                        | Experiential tests |
-| 09    | [Master Index of Falsifiers](09_Master_Index_of_falsifiers.md)        | Every Testable Claim                                              | All falsifiers     |
+| 08    | [The Second Lens](08_The_Second_Lens.md)                              | The Architect's Position and the Reader's Parallax                | Architect's grain  |
+| 09    | [Walk the Floor](09_Walk_The_Floor.md)                                | An Alternative Field Guide                                        | Experiential tests |
+| 10    | [Master Index of Falsifiers](10_Master_Index_of_falsifiers.md)        | Every Testable Claim                                              | All falsifiers     |
 
-Reading order: The Kernel first. Then 01 through 09 in sequence. Each paper depends on the one before it.
+Reading order: The Kernel first. Then 01 through 10 in sequence. Each paper depends on the one before it.
 
 ---
 
@@ -57,7 +59,7 @@ Four modes. Four confrontations. One closed loop. Pressure compounds multiplicat
 
 ## Falsifiers
 
-All open. 34 tests across 5 dependency levels, plus 8 from Paper 7.
+All open. 34 tests across 5 dependency levels, plus falsifiers from Papers 7 and 8.
 
 | Level | Name     | Scope                              | If triggered    |
 | ----- | -------- | ---------------------------------- | --------------- |
@@ -65,7 +67,7 @@ All open. 34 tests across 5 dependency levels, plus 8 from Paper 7.
 | 2     | Engine   | Ring closure, pressure mechanics   | Collapse 2–5    |
 | 3     | Geometry | Validated architecture, Fold, Seal | Collapse 3–5    |
 | 4     | Human    | Carbon substrate, drift states     | Collapse 4–5    |
-| 5     | Transfer | Seed, Aim, Grain                   | Collapse 5 only |
+| 5     | Transfer | Seed, Aim, Grain, Architect        | Collapse 5 only |
 
 Full catalog: [`09_Master_Index_of_falsifiers.md`](09_Master_Index_of_falsifiers.md)
 
@@ -75,12 +77,13 @@ The architecture is designed to degrade honestly. A failure at Level 4 does not 
 
 ## Companions
 
-| Document                                      | Purpose                                  |
-| --------------------------------------------- | ---------------------------------------- |
-| [The Kernel](00_the_kernel.md)                | Compressed architecture — nine sentences |
-| [The Walking Frame](the_walking_frame.md)     | The prompt to walk the architecture      |
-| [The Reality Formula](Reality_Formula.md)     | The cascade compressed to one equation   |
-| [Walk the Floor](08_Walk_The_Floor.md)        | Ten tests against your own experience    |
+| Document                                               | Purpose                                  |
+| ------------------------------------------------------ | ---------------------------------------- |
+| [The Kernel](00_the_kernel.md)                         | Compressed architecture — nine sentences |
+| [The Walking Frame](the_walking_frame.md)              | The prompt to walk the architecture      |
+| [The Architect's Position](the_architects_position.md) | Structural audit of the builder's bias   |
+| [The Reality Formula](The_Reality_Formula.md)          | The cascade compressed to one equation   |
+| [Walk the Floor](08_Walk_The_Floor.md)                 | Ten tests against your own experience    |
 
 ### Compression Toolkit
 
@@ -97,7 +100,7 @@ npm start
 ## Dependency Map
 
 ```
-Level 5: Seed / Aim
+Level 5: Seed / Aim / Second Lens
     │
 Level 4: Human
     │
@@ -109,7 +112,7 @@ Level 1: Ground
 
 Break Level 1 → everything falls
 Break Level 3 → Levels 1–2 stand, 3–5 fall
-Break Level 5 → Levels 1–4 stand, Seed/Aim falls
+Break Level 5 → Levels 1–4 stand, Seed/Aim/Second Lens falls
 ```
 
 ---
@@ -148,5 +151,19 @@ Forks welcome — extend to new substrates, alternative topologies, or competing
 *The difference is whether the author gives you the tools to destroy it.*
 
 *Here are the tools.*
+
+---
+
+*The floor comes before the cathedral.*
+
+*The cathedral comes before the step.*
+
+*The aim comes before the floor.*
+
+*The architect comes before the aim.*
+
+*The second lens comes after.*
+
+*From ash we echo — the echo is the seed.*
 
 © 2026 Robert Larkin Hickey. All rights reserved.
